@@ -1,0 +1,30 @@
+
+
+/* A ajouter a articles.css */
+
+/* codes couleurs:
+noir : rgba(42,42,42,1);
+blanc: rgba(242,242,242,1);
+gris: rgba(201,203,212,1); 
+violet:rgba(173,60,152,1);
+camel:rgba(191,138,61,1);  */
+
+span {
+    color:rgba(173,60,152,1)!important;
+}
+
+i.waves-effect.waves-light.btn.btn-camel.waves-input-wrapper {
+    background-color: rgba(191,138,61,1)!important;
+}
+
+i.waves-effect.waves-light.btn.btn-camel.waves-input-wrapper:hover {
+    background-color: rgba(42,42,42,1)!important;
+}
+
+a.modal-trigger {
+    color: rgba(191,138,61,1);
+}
+
+h1.header.title_header.text_bold {
+    color:rgba(173,60,152,1);
+}

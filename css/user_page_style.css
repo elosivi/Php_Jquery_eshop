@@ -1,0 +1,154 @@
+/* feuille de style site LET */
+
+
+/* ***************************************** */
+/* GÉNÉRALITÉS : S'APPLIQUE À TOUTES LES PAGES DU SITE */
+/* 
+class et id crées : 
+
+
+*/
+/*
+codes couleurs:
+noir : rgba(20,19,19,1);
+blanc: rgba(242,242,242,1);
+gris: rgba(201,203,212,1); 
+violet:rgba(173,60,152,1);
+camel:(191,138,61,1); 
+*/
+
+/*
+polices:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+/* ***************************************** */
+/* CREER UNE AUTRE PAGE POUR CHAQUE PAGE DE SITE QUE VOUS CREEZ 
++
+intégrer style.css + votre feuille de style
+
+
+
+/**********************  u s e r _ p a g e. P H P *********************** */
+
+.user_page {
+    position: relative;
+    min-height: 1000px;
+}
+/* encadré déco */
+
+.right_deco{
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top:10px;
+}
+
+/* encadré infos user */
+
+.user_infos {
+    width: 50%;
+    padding: 100px 50px 50px 150px;
+    margin: auto;
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.user_infos p {
+    font-size: 1.5rem;
+    text-indent: 1.5em;
+    font-weight: bold;
+}
+
+.user_infos span{
+    font-weight: bold;
+    color:white;
+}
+.user_infos h3 {
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.user_infos .trait{
+border-top:1px solid white;
+width:70px;
+}
+#bloc .tl, #bloc .tr, #bloc .bl, #bloc .br {
+    position:absolute;
+    width:150px;  
+    height:150px;
+    display:block;
+    overflow:hidden;
+    border: 5px solid black;
+}
+#bloc .tl { 
+    top:0; 
+    left:0; 
+    border-right:0; 
+    border-bottom:0;
+    width:150px;  
+    height:30px;
+} 
+#bloc .tr { 
+    top:0 ; 
+    right:0; 
+    border-bottom:0; 
+    border-left:0 ;
+    width:300px;  
+    height:300px;
+}
+#bloc .bl { 
+    bottom:0 ; 
+    left:0; 
+    border-top:0; 
+    border-right:0;
+    width:70px;  
+    height:70px;
+    width:150px;  
+    height:150px;
+ }
+#bloc .br { 
+    bottom:0 ; 
+    right:0; 
+    border-left:0; 
+    border-top:0;
+    width:70px;  
+    height:70px;
+}
+
+
+/* encadré hello */
+
+.hello_user {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+}
+
+.hello_user h2{
+    font-size:8rem;
+
+}
+
+#avatar{
+    text-align: center;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+img.avatar {
+
+    width: 50%;
+    height: 50%;
+}
+/**********************  E N D   *********************** */

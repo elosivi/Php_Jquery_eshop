@@ -1,0 +1,231 @@
+/* feuille de style site LET */
+
+
+/* ***************************************** */
+/* GÉNÉRALITÉS : S'APPLIQUE À TOUTES LES PAGES DU SITE */
+/* 
+class et id crées : 
+
+
+*/
+/*
+codes couleurs:
+noir : rgba(42,42,42,1);
+blanc: rgba(242,242,242,1);
+gris: rgba(201,203,212,1); 
+violet:rgba(173,60,152,1);
+camel:rgba(191,138,61,1); 
+*/
+
+/*
+polices:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+/* ***************************************** */
+
+/* CREER UNE AUTRE PAGE POUR CHAQUE PAGE DE SITE QUE VOUS CREEZ 
++
+intégrer style.css + votre feuille de style
+
+
+
+/******************************************** G E N E R A L I T E S *********************** */
+
+/* utiliser la class marker dès que vous voulez appliquer cette police */
+
+.bold{
+    font-weight: 400;
+}
+
+.marker{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Myblack{
+    color: rgba(42,42,42,1);
+}
+
+.Mygrey{
+    color: rgba(201,203,212,1);
+}
+
+.Mypurple{
+    color: rgba(173,60,152,1);
+}
+
+.Mycamel{
+    color: rgba(191,138,61,1)
+}
+
+.Mywhite{
+    color: white;
+}
+
+.BGblack{
+    background-color: rgba(42,42,42,1);
+    
+}
+
+.BGgrey{
+    background-color: rgba(201,203,212,1);
+}
+
+.BGpurple{
+    background-color: rgba(173,60,152,1);
+}
+
+.BGcamel{
+    background-color: rgba(191,138,61,1)
+}
+
+.BGwhite{
+    background-color: white;
+}
+
+
+/************** body *************/
+
+
+*{
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+    width: 80%;
+    margin:auto;
+    
+}
+
+h1, h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+a:hover{
+    color:rgba(191,138,61,1); 
+}
+
+
+i.large.material-icons {
+        background-color: rgba(191,138,61,1);
+    }
+/************** header *************/
+
+header .header{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.min {
+    min-width: 30%!important;
+}
+
+header span {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header li.user a:hover{
+color: rgba(173,60,152,1);
+}
+
+/************* footer  ***************/
+
+.LowFooter{
+    background-color:rgba(42,42,42,1);
+    padding: 20px 20px 40px 20px;
+   
+    /* border-radius: 5px; */
+}
+
+
+.LowFooter .col{
+    text-align: center;
+    padding-left:10px;
+}
+
+.LowFooter a{
+    color:rgba(242,242,242,1);
+}
+
+.letFooter{
+    font-size:3rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top:5px;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ad3c98 0px 0px 20px, #ad3c98 0px 0px 30px, #ad3c98 0px 0px 40px, #ad3c98 0px 0px 50px, #ad3c98 0px 0px 75px;
+}
+
+.LowFooter .row .col {
+    text-align: center;
+}
+
+.letFooter:before, .letFooter:after {
+    content:'';
+    width:3em;
+    border-bottom: rgba(173,60,152,1) solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  .letFooter:before {
+    margin-left:-100%;
+  margin-right:3em}
+  .letFooter:after {
+    margin-right:-100%;
+  margin-left:3em;}
+
+  .letFooter{
+      margin-bottom:20px;
+  }
+
+/* 3- reseaux sociaux */
+
+ .reseauxSociaux {
+    height : 50vh;
+    background-image: url(../img/parallax1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding:20px;
+   
+}
+
+ .logosReseaux {
+    text-align: center;
+    
+}
+ .logosReseaux i{
+    font-size: 5rem;
+    color:white
+}
+
+
+ .reseauxSociaux h2{
+    text-align: right;
+    color: rgba(255,255,255,1);
+    margin-top:20px;
+}
+
+ a:hover{
+    color:rgba(191,138,61,1);
+   
+}
+
+.sloganReseaux {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Permanent Marker', cursive;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.logosReseaux i:hover{    
+    transform: scale(1.5);
+    
+}
+/**********************  E N D  *********************** */
